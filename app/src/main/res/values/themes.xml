@@ -2,7 +2,6 @@
     <!-- Base application theme. -->
     <style name="Theme.DariusAllerlei" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
-
     </style>
 
     <style name="Theme.DariusAllerlei.NoActionBar">

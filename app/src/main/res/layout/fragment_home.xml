@@ -34,33 +34,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_home">
 
-        <TableRow
-            android:id="@+id/test"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name_text_input"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/name_text_input"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-                android:layout_width="117dp"
-                android:layout_height="wrap_content">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/name_edit_text"
-                    android:layout_width="391dp"
-                    android:layout_height="wrap_content"
-                    android:hint="test" />
-            </com.google.android.material.textfield.TextInputLayout>
-        </TableRow>
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
 
         <TableRow
-            android:id="@+id/firstToDo"
+            android:id="@+id/add_table_row"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="24dp">
 
             <Button
-                android:id="@+id/firstAddButton"
-                android:layout_width="186dp"
+                android:id="@+id/todo_add_button"
+                android:layout_width="66dp"
+                android:layout_margin="20dp"
                 android:text="+">
 
             </Button>
